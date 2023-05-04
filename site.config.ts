@@ -11,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'MoonJun-Blog',
-  domain: 'choiii',
+  domain: 'choii.link',
   author: 'MoonJun',
 
   // open graph metadata (optional)
