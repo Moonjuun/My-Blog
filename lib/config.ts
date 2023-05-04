@@ -45,6 +45,13 @@ export const inversePageUrlOverrides = invertPageUrlOverrides(pageUrlOverrides)
 
 export const environment = process.env.NODE_ENV || 'development'
 export const isDev = environment === 'development'
+const isProd = process.env.NODE_ENV === 'production'
+
+if (isProd) {
+  console.log('Production environment')
+} else {
+  console.log('Development environment')
+}
 
 // general site config
 export const name: string = getSiteConfig('name')
