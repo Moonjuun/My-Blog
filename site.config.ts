@@ -19,7 +19,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'MoonJuun',
+  // github: 'MoonJuun',
   // linkedin: 'moonjun-choi-9bb022223/',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
