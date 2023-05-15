@@ -15,7 +15,7 @@ export default siteConfig({
   author: 'MoonJun',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '문준의 개발 블로그',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -43,11 +43,11 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/contact': 'a968a31a151140cebac017b5db603c3c'
+    // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
